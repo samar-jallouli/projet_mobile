@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Fond violet arrondi -->
+    <path
+        android:fillColor="@color/primary_accent"
+        android:pathData="M16,4 L48,4 A12,12 0 0,1 60,16 L60,48 A12,12 0 0,1 48,60 L16,60 A12,12 0 0,1 4,48 L4,16 A12,12 0 0,1 16,4 Z" />
+    <!-- Lettre C stylisée -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M39,23.5 C36.8,21.5 34,20 30.5,20 C23.5,20 18.5,25.2 18.5,32 C18.5,38.8 23.5,44 30.5,44 C34,44 36.8,42.5 39,40.5 L34.8,36.5 C33.5,37.8 32.2,38.5 30.5,38.5 C26.2,38.5 23.5,35.2 23.5,32 C23.5,28.8 26.2,25.5 30.5,25.5 C32.2,25.5 33.5,26.2 34.8,27.5 L39,23.5 Z" />
+</vector>

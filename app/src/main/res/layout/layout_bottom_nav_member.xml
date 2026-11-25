@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNavMemberContainer"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_bottom_nav"
+    android:elevation="8dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="6dp"
+    android:paddingEnd="6dp">
+
+    <!-- Accueil -->
+    <LinearLayout
+        android:id="@+id/nav_member_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_member_home_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_member_home_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_home" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_member_home_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_home"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Événements -->
+    <LinearLayout
+        android:id="@+id/nav_member_events"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_member_events_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_member_events_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_events" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_member_events_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_events"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Mon QR -->
+    <LinearLayout
+        android:id="@+id/nav_member_qr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_member_qr_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_member_qr_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_qr" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_member_qr_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_my_qr"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Assistant -->
+    <LinearLayout
+        android:id="@+id/nav_member_ai"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_member_ai_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_member_ai_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_ai" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_member_ai_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_assistant"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Profil -->
+    <LinearLayout
+        android:id="@+id/nav_member_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_member_profile_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_member_profile_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_profile" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_member_profile_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_profile"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</LinearLayout>

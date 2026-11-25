@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNavAdminContainer"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_bottom_nav"
+    android:elevation="8dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="6dp"
+    android:paddingEnd="6dp">
+
+    <!-- Accueil -->
+    <LinearLayout
+        android:id="@+id/nav_admin_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_admin_home_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_admin_home_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_home" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_admin_home_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_home"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Membres -->
+    <LinearLayout
+        android:id="@+id/nav_admin_members"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_admin_members_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_admin_members_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_members" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_admin_members_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_members"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Événements -->
+    <LinearLayout
+        android:id="@+id/nav_admin_events"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_admin_events_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_admin_events_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_events" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_admin_events_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_events"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Scanner -->
+    <LinearLayout
+        android:id="@+id/nav_admin_scanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_admin_scanner_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_admin_scanner_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_scanner" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_admin_scanner_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_scanner"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Stats -->
+    <LinearLayout
+        android:id="@+id/nav_admin_stats"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/nav_admin_stats_icon_bg"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_nav_pill_unselected">
+
+            <ImageView
+                android:id="@+id/nav_admin_stats_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nav_stats" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_admin_stats_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nav_stats"
+            android:textColor="@color/nav_unselected"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</LinearLayout>
